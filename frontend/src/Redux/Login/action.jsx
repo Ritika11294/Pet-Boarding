@@ -2,10 +2,10 @@ const LOGIN = "LOGIN";
 const LOGOUT = "LOGOUT";
 
 
-const loginRequest = (admin) => {
+const loginRequest = (user) => {
     return {
         type: LOGIN,
-        payload: admin
+        payload: user
     }
 }
 
